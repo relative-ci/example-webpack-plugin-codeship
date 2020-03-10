@@ -1,8 +1,14 @@
-# BundleStats setup example for custom webpack config
+<h1 align="center">
+  Codeship
+  +
+  <a href="https://relative-ci.com">
+    <img alt="RelativeCI" src="https://raw.githubusercontent.com/relative-ci/agent/master/assets/relative-ci--logo.svg?sanitize=true" width="64" valign="middle" />
+  </a>
+</h1>
 
-> Configure webpack to generate a bundle-stats report on every build.
+> [@relative-ci/agent webpack plugin](https://github.com/relative-ci/agent) setup example for Codeship
 
-## Installation
+## Install
 
 ```shell
 npm install

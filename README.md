@@ -20,7 +20,7 @@ yarn add --dev @relative-ci/agent
 
 ## 2. Configure @relative-ci/agent webpack plugin
 
-[`webpack.config.js`](webpack.config.js#L63)
+[`webpack.config.js`](webpack.config.js#L61)
 
 ```js
 // webpack.config.jjs

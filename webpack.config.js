@@ -1,8 +1,6 @@
 const path = require("path");
 const HtmlPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const { StatsWriterPlugin } = require("webpack-stats-plugin");
-const { BundleStatsWebpackPlugin } = require("bundle-stats-webpack-plugin");
 const { RelativeCiAgentWebpackPlugin } = require("@relative-ci/agent");
 
 const CONTEXT = path.join(__dirname, "src");

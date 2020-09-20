@@ -8,16 +8,29 @@
   <a href="https://app.relative-ci.com/projects/64NnGgjGOQXSR5cGHnas"><img src="https://badges.relative-ci.com/badges/64NnGgjGOQXSR5cGHnas?branch=master" alt="relativeCI"></a>
 </h1>
 
-> [@relative-ci/agent webpack plugin](https://github.com/relative-ci/agent) setup example for Codeship
+> [@relative-ci/agent](https://github.com/relative-ci/agent) [webpack plugin](https://relative-ci.com/documentation/setup/webpack-plugin) setup example for [Codeship](https://codeship.com)
 
-## Install
-
-```shell
-npm install
-```
-
-## Build
+## 1. Install @relative-ci/agent
 
 ```shell
-npm run build
+npm install --save-dev @relative-ci/agent
+# or
+yarn add --dev @relative-ci/agent
 ```
+
+## 2. Configure @relative-ci/agent webpack plugin
+
+[`webpack.config.js`](webpack.config.js#L63)
+
+```js
+// webpack.config.jjs
+module.exports = {
+  // ...
+  plugins: [
+    // ...
+    new RelativeCiAgentWebpackPlugin()
+  ]
+};
+```
+
+[Get started with RelativeCI](https://relative-ci.com/documentation/setup)

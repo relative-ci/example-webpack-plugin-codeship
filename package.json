@@ -45,8 +45,8 @@
   "dependencies": {
     "core-js": "3.6.5",
     "modern-css-reset": "1.1.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "husky": {
     "hooks": {

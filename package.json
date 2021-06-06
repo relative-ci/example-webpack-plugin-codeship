@@ -43,7 +43,7 @@
     "webpack-dev-server": "3.11.0"
   },
   "dependencies": {
-    "core-js": "3.6.5",
+    "core-js": "3.14.0",
     "modern-css-reset": "1.1.1",
     "react": "16.13.1",
     "react-dom": "16.13.1"
